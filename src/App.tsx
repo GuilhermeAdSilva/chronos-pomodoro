@@ -10,7 +10,10 @@ export function App() {
     <>
       {' '}
       {/* react fragment */}
-      <Heading />
+      <Heading attr={123}>Olá mundo 1</Heading>
+      <Heading>Olá mundo 2</Heading>
+      <Heading>Olá mundo 3</Heading>
+      <Heading>Olá mundo 4</Heading>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic eius
         cupiditate accusantium. Omnis eum iste corporis nam. Ab aut, inventore
